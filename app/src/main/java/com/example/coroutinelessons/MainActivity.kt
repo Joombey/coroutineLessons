@@ -15,6 +15,9 @@ import kotlinx.coroutines.launch
 import java.lang.Thread.State
 import kotlin.random.Random
 
+//TODO: Необходимо изучить Dispatchers что это и какой и где использовать
+//TODO: Необходимо изучить доступные CorountineScope и рекомендации к их применению
+
 class MainActivity : AppCompatActivity() {
 
     val liveData: MutableLiveData<Int> = MutableLiveData(123)
